@@ -1,0 +1,70 @@
+
+
+body { 
+    text-align: center; 
+    background-color: #FAF3E0; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-image: url(images/MSD%20pano.JPG);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 20px;    
+    border-radius: 10px;
+    text-align: center;
+}
+
+header h1, header p {
+    color: aliceblue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 800px;
+}
+
+h1,h2 {
+    color: #A65F36
+}
+
+h2 {
+       font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+img, video {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px;
+    color: #4b4b45;
+}
+
+footer {
+    background-color: #C58940; 
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
